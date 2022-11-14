@@ -1,0 +1,144 @@
+body
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url("../images/foto bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation
+{
+    display: inline;
+    background-color: white;
+}
+
+.navi-item
+{
+    display: inline;
+    padding-right: 1300px;
+    margin-bottom: 0;
+}
+
+.search
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color:black;
+    margin-top: -180px;
+    margin-left: 1250px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    opacity: 0.7;
+    font-family: Arial;
+}
+
+.cabecalho
+{
+    font-family: Arial;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    padding-left: 25px;
+}
+
+.cabecalhotext
+{
+    transition: font-weight, 0.15s;
+}
+
+.cabecalhotext:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.image-insta
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    width: 25px;
+    transition: opactiy, 0.15s;
+}
+
+.image-insta:hover
+{
+    opacity: 0.7;
+}
+
+.image-fb
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    width: 25px;
+    transition: opactiy, 0.15s;
+}
+.image-fb:hover
+{
+    opacity: 0.7;
+}
+
+.image-ytb
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 25px;
+    transition: opactiy, 0.15s;
+}
+
+.image-ytb:hover
+{
+    opacity: 0.7;
+}
+
+.entity
+{
+    color: white;
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.text-mainy
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 200px;
+    padding-bottom: 430px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: opacity 0.15s;
+    text-align: center;
+}
+
+.text-only
+{
+    display: inline;
+    font-family: Courier New;
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+.text-main:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.text-main:active
+{
+    opacity: 0.7;
+}
