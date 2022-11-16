@@ -1,0 +1,498 @@
+body
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.clubess
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.contt
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.planoo
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.resultss
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.homee
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.patrocinadoress
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.formacaoo
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.ajudaa
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.sobree
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.docss
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.TVV
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.videoss
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.newss
+{
+    display: inline;
+    background-color: rgb(31, 31, 31);
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.ul
+{
+    margin-top: -1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(51,51,51);
+}
+
+.ajuda
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.ajuda:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.ajuda:active
+{
+    background-color: rgb(35, 35, 35);
+
+}
+
+.sobre
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.sobre:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.videos
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.videos:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+
+
+.TV
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.TV:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.patrocinadores
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.patrocinadores:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.formacao
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.formacao:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.plano
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.plano:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.clubes
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.clubes:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.results
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.results:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.cont
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+
+.news
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+.home
+{
+    display: inline;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-right: 35px;
+    margin-left: 0px;
+    transition: background-color, 0.15s;
+}
+
+.docs
+{
+    display: inline;
+    transition: background-color, 0.15s;
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+.navigation
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    font-family: Arial;
+    background-color: rgb(51,51,51);
+}
+
+
+.cont:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+.news:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+
+.home:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+.docs:hover
+{
+    background-color: rgb(35, 35, 35);
+}
+.search
+{
+    display: inline;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color:black;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: -45px;
+    opacity: 0.7;
+    font-family: Arial;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+.cabecalho
+{
+    font-family: Arial;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    padding-left: 25px;
+}
+
+.cabecalhotext
+{
+    transition: font-weight, 0.15s;
+}
+
+.cabecalhotext:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.image-insta
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    width: 25px;
+    transition: opactiy, 0.15s;
+}
+
+.image-insta:hover
+{
+    opacity: 0.7;
+}
+
+.image-fb
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    width: 25px;
+    transition: opactiy, 0.15s;
+}
+.image-fb:hover
+{
+    opacity: 0.7;
+}
+
+.image-ytb
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 25px;
+    transition: opactiy, 0.15s;
+}
+
+.image-ytb:hover
+{
+    opacity: 0.7;
+}
+
+.entity
+{
+    color: white;
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.text-mainy
+{
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 200px;
+    padding-bottom: 430px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: opacity 0.15s;
+    text-align: center;
+}
+
+.text-only
+{
+    display: inline;
+    font-family: Courier New;
+    margin-bottom: 0;
+    opacity: 0.9;
+}
+.text-main:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.text-main:active
+{
+    opacity: 0.7;
+}
