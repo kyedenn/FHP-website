@@ -12,54 +12,55 @@
         <link rel="shortcut icon" href="../images/Logo FHP.png" type="image/x-icon">
     </head>
     
-    <body>
+    <body class="bod">
         <nav class="navigation">
-            <ul class="ul">
-                <li class="home">
-                    <a href="index.html" style="text-decoration:none;color:aliceblue" class="elements">Página Inicial</a>
+            <img class="logon" src="../images/Logo FHP.png">
+            <ul role="tablist"class="ul">
+                <li class="nav-link">
+                    <a href="index.html" style="text-decoration:none;" role="tab" data-toggle="tab" class="elements">Página Inicial</a>
                 </li>
-                <li class="news">
-                    <a href="noticias.html" style="text-decoration:none;color:aliceblue" class="elements">Notícias</a>
+                <li class="nav-link">
+                    <a href="noticias.html" style="text-decoration:none;" class="elements">Notícias</a>
                 </li>
-                <li class="cont">
-                    <a href="contactos.html" style="text-decoration:none;color:aliceblue" class="elements">Contactos</a>
+                <li class="nav-link">
+                    <a href="contactos.html" style="text-decoration:none;" class="elements">Contactos</a>
                 </li>
-                <li class="docs">
-                    <a href="documentos.html" style="text-decoration:none;color:aliceblue" class="elements">Documentos</a>
+                <li class="nav-link">
+                    <a href="documentos.html" style="text-decoration:none;" class="elements">Documentos</a>
                 </li>
-                <li class="results">
-                    <a href="resultadosfinais.html" style="text-decoration:none;color:aliceblue" class="elements">Resultados Finais</a>
+                <li class="nav-link">
+                    <a href="resultadosfinais.html" style="text-decoration:none;" class="elements">Resultados Finais</a>
                 </li>
-                <li class="clubess">
-                    <a href="clubesaderentes.html" style="text-decoration:none;color:aliceblue" class="elements">Clubes Aderentes</a>
+                <li class="nav-link">
+                    <a href="clubesaderentes.html" style="text-decoration:none;" id="clubes" class="elements">Clubes Aderentes</a>
                 </li>
-                <li class="plano">
-                    <a href="planoatividades.html" style="text-decoration:none;color:aliceblue" class="elements">Plano de Atividades- 2023</a>
+                <li class="nav-link">
+                    <a href="planoatividades.html" style="text-decoration:none;" class="elements">Plano de Atividades- 2023</a>
                 </li>
-                <br>
-                <br>
-                <br>
-                <li class="formacao">
-                    <a href="formacao.html" style="text-decoration:none;color:aliceblue" class="elements">Formação de Treinadores</a>
+                <li class="nav-link">
+                    <a href="formacao.html" style="text-decoration:none;" class="elements">Formação de Treinadores</a>
                 </li>
-                <li class="patrocinadores">
-                    <a href="patrocinadoreseparceiros.html" style="text-decoration:none;color:aliceblue" class="elements">Patrocinadores e Parceiros</a>
+                <li class="nav-link">
+                    <a href="patrocinadoreseparceiros.html" style="text-decoration:none;" class="elements">Patrocinadores e Parceiros</a>
                 </li>
-                <li class="TV">
-                    <a href="fhptv.html" style="text-decoration:none;color:aliceblue" class="elements">FHP-TV</a>
+                <li class="nav-link">
+                    <a href="fhptv.html" style="text-decoration:none;" class="elements">FHP-TV</a>
                 </li>
-                <li class="videos">
-                    <a href="videos.html" style="text-decoration:none;color:aliceblue" class="elements">Vídeos</a>
+                <li class="nav-link">
+                    <a href="videos.html" style="text-decoration:none;" class="elements">Vídeos</a>
                 </li>
-                <li class="sobre">
-                    <a href="sobrefhp.html" style="text-decoration:none;color:aliceblue" class="elements">Sobre FHP</a>
+                <li class="nav-link">
+                    <a href="sobrefhp.html" style="text-decoration:none;" class="elements">Sobre FHP</a>
                 </li>
-                <li class="ajuda">
-                    <a href="ajuda.html" style="text-decoration:none;color:aliceblue" class="elements">Ajuda</a>
+                <li class="nav-link">
+                    <a href="ajuda.html" style="text-decoration:none;" role="tab" data-toggle="tab" class="elements">Ajuda</a>
                 </li>
             </ul>
-            <input class="search" type="text" placeholder="Pesquisar">  
         </nav>
+        <div class="searchbox">
+            <input class="search" type="text" placeholder="Pesquisar">
+            <ion-icon name="search-outline"></ion-icon>
+        </div>
         <footer class="cabecalho">
             Email:
             <a class= "cabecalhotext" href="mailto:geral@fedhalterofilismo.net" target="_blank" style="text-decoration: none;color:black">
@@ -71,5 +72,9 @@
                  968441401
             </a>
         </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
+
+
 </html>

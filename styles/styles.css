@@ -1,397 +1,255 @@
 body
 {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding:0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
-.clubess
+.searchbox input::placeholder
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    color: transparent;
 }
 
-.contt
+ion-icon
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    position: fixed;
+    width: 3rem;
+    top: 4.8%;
+    right: 2.3%;
+    pointer-events: none;
 }
 
-.planoo
+.searchbox input:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    border-radius: 1.2rem;
+    position: fixed;
+    width: 4rem;
+    top: 4%;
+    right: 2.95%;
+    padding-right: 4rem;
 }
 
-.resultss
+.searchbox input
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.3rem;
+    border-radius: 2rem;
+    position: fixed;
+    width: 0.1rem;
+    top: 4%;
+    right: 2.95%;
+    padding-right: 1.2rem;
 }
 
-.homee
+.searchbox
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    position: fixed;
 }
 
-.patrocinadoress
+#home:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.formacaoo
+#videos:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
+#sobre:hover
 
-.ajudaa
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.sobree
+#results:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.docss
+#plano:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.TVV
+#patrocinadores:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.videoss
+#news:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.newss
+#formacao:hover
 {
-    display: inline;
-    background-color: rgb(31, 31, 31);
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.ul
+#tv:hover
 {
-    margin-top: -1px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    background-color: rgb(51,51,51);
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.ajuda
+#docs:hover
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.ajuda:hover
+#conts:hover
 {
-    background-color: rgb(35, 35, 35);
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.ajuda:active
+#clubes:hover
 {
-    background-color: rgb(35, 35, 35);
-
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.sobre
+#ajuda:hover
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgba(0, 0, 0, 0.716);
+    padding: 0.1rem;
+    color:white;
 }
 
-.sobre:hover
+#home
 {
-    background-color: rgb(35, 35, 35);
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.videos
+#videos
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
+#sobre
 
-.videos:hover
 {
-    background-color: rgb(35, 35, 35);
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-
-
-.TV
+#results
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.TV:hover
+#plano
 {
-    background-color: rgb(35, 35, 35);
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.patrocinadores
+#patrocinadores
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.patrocinadores:hover
+#news
 {
-    background-color: rgb(35, 35, 35);
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.formacao
+#formacao
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.formacao:hover
+#tv
 {
-    background-color: rgb(35, 35, 35);
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.plano
+#docs
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.plano:hover
+#conts
 {
-    background-color: rgb(35, 35, 35);
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.clubes
+#clubes
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.clubes:hover
+#ajuda
 {
-    background-color: rgb(35, 35, 35);
+    background-color: black;
+    padding: 0.1rem;
+    color:white;
 }
 
-.results
+body::-webkit-scrollbar
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    width: 0.25rem;
 }
 
-.results:hover
+body::-webkit-scrollbar-track
 {
-    background-color: rgb(35, 35, 35);
+    background-color: rgba(60, 60, 60, 0.121);
 }
 
-.cont
+body::-webkit-scrollbar-thumb
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    background-color: rgb(170, 170, 170);
 }
 
-
-.news
+:root
 {
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 35px;
+    font-size: 16px;
 }
-.home
-{
-    display: inline;
-    padding-left: 35px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    padding-right: 35px;
-    margin-left: 0px;
-    transition: background-color, 0.15s;
-}
-
-.docs
-{
-    display: inline;
-    transition: background-color, 0.15s;
-    padding-left: 35px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-right: 35px;
-}
-
-.navigation
-{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    font-family: Arial;
-    background-color: rgb(51,51,51);
-}
-
-
-.cont:hover
-{
-    background-color: rgb(35, 35, 35);
-}
-.news:hover
-{
-    background-color: rgb(35, 35, 35);
-}
-
-.home:hover
-{
-    background-color: rgb(35, 35, 35);
-}
-.docs:hover
-{
-    background-color: rgb(35, 35, 35);
-}
-.search
-{
-    display: inline;
-    border-radius: 15px;
-    border-width: 2px;
-    border-color:black;
-    position: absolute;
-    margin-left: 1050px;
-    margin-top: -45px;
-    opacity: 0.7;
-    font-family: Arial;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-
 
 .cabecalho
 {
@@ -399,15 +257,18 @@ body
     background-color: rgba(255, 255, 255, 0.95);
     margin-bottom: 0;
     margin-top: 0;
+    margin-left: 15rem;
     padding-top: 25px;
     padding-bottom: 25px;
-    line-height: 30px;
+    line-height: 1.875rem;
     padding-left: 25px;
+    margin-right: 0;
 }
 
 .cabecalhotext
 {
     transition: font-weight, 0.15s;
+    padding-right: 1rem;
 }
 
 .cabecalhotext:hover
@@ -421,7 +282,7 @@ body
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 5px;
-    width: 25px;
+    max-width: 1.7rem;
     transition: opactiy, 0.15s;
 }
 
@@ -456,6 +317,10 @@ body
     opacity: 0.7;
 }
 
+.logo
+{
+    max-width: 7rem;
+}
 .entity
 {
     color: white;
@@ -463,21 +328,107 @@ body
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 0.6em;
     opacity: 0.8;
 }
-
-.text-mainy
+ul
 {
-    margin-top: 0px;
-    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.navigation
+{
+    font-family: Arial;
+    width: 15rem;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    overflow-y: auto;
+
+}
+
+.navigation::-webkit-scrollbar
+{
+    width: 0.25rem;
+}
+
+.navigation::-webkit-scrollbar-track
+{
+    background-color: rgba(60, 60, 60, 0.121);
+}
+
+.navigation::-webkit-scrollbar-thumb
+{
+    background-color: rgb(170, 170, 170);
+}
+
+.nav-link
+{
+    color: black;
+    padding-bottom: 1.5rem;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+}
+
+.nav-link:hover
+{
+    color: aliceblue;
+}
+
+.elements
+{
+    color: black;
+    transition: all 0.15sec;
+}
+
+.elements:hover
+{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.elements:active, .elements:focus
+{
+    background-color: black;
+    color: white;
+}
+
+.logon
+{
+    max-width: 80%;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+main
+{
+    margin-left: 15rem;
     background-color: rgba(0, 0, 0, 0.6);
-    padding-top: 200px;
-    padding-bottom: 430px;
+    padding-top: 12.5rem;
+    padding-bottom: 26.875rem;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.875em;
     transition: opacity 0.15s;
     text-align: center;
+    margin-right: 0;
+    padding-right: 10vh;
+}
+
+@media screen and (max-width: 775px)
+{
+    main
+    {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    main
+    {
+        font-size: 0.9em;
+    }
 }
 
 .text-only
